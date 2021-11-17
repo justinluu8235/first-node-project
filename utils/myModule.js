@@ -2,8 +2,17 @@ function helloClass(){
     return 'Good morning. Please put sonic emoji in Slack.';
 }
 
+function goodbyeClass() {
+    return 'Good bye. Please put sonic emoji in Slack.'
+}
+
+function addNumbers(num1, num2) {
+    return num1 + num2;
+}
+
 //run the function
 //console.log(helloClass());
+let result = addNumbers(5,8);
 
 
 class Human{
@@ -30,8 +39,12 @@ const person = {
 }
 
 module.exports = {
-     helloClass,
+     hello: helloClass,
+     goodbyeClass,
+     addNumbers,
      human: Human,
-     person
+     person,
+     result
 };
 
+module.exports.gBye = () => goodbyeClass;

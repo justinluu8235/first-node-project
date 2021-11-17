@@ -1,4 +1,3 @@
-
 {
   "name": "first-node-project",
   "version": "1.0.0",
@@ -18,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/justinluu8235/first-node-project/issues"
   },
-  "homepage": "https://github.com/justinluu8235/first-node-project#readme"
+  "homepage": "https://github.com/justinluu8235/first-node-project#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "faker": "^5.5.3"
+  }
 }
